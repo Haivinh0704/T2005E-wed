@@ -1,0 +1,64 @@
+body{
+    width: 838px;
+    height: 853px;
+    background-color: white;
+}
+#icon{
+    float: left;
+}
+
+
+.metafull{
+
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nen-1{
+overflow: hidden;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 15px;
+    background-color:#F2F2F2;
+    width: 822px;
+   height: 145px;
+
+}
+.nen-2{
+overflow: hidden;
+    text-align: left;
+    margin-top: 15px ;
+    background-color:white;
+    width: 822px;
+    height: 145px;
+
+}
+.talor img{
+
+    margin-right: 20px   ;
+    float: left;
+}
+.Miles img{
+    margin-right: 20px   ;
+    float: left;
+}
+.ARt img{
+    margin-right: 20px   ;
+    float: left;
+}
+.gun img{
+    margin-right: 20px   ;
+    float: left;
+}
+.UEFA img{
+    margin-right: 20px   ;
+    float: left;
+}
+.nen-2{
+    border: 1px #e8e8e8 solid;}
+.nen-1{
+    border: 1px #e8e8e8 solid;}
+.anh-nen img{
+    display: block;
+    float: right;
+}
