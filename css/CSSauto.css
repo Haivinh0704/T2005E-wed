@@ -1,0 +1,8 @@
+div{
+ background-color: red; /* màu nền chữ*/
+    margin: auto;/* margin căn lề bốn phía*/
+    padding: 30px; /* căn lề nội dung 4 phía*/
+    border-bottom: 1px solid red;/* viền kẻ thẳng ở dưới*/
+    display: block;/*đóng khối 1 nội dung*/
+    background-color: transparent;/* màu trong suốt*/
+}

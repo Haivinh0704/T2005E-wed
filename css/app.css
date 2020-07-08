@@ -1,0 +1,40 @@
+body{
+    background-image: url("../IMGs/hinh-nen-dep-cho-may-tinh-win-10-10.jpg");/*(../) đi lên */
+    background-repeat:no-repeat ;/*lặp lại hàng ngang -x -y*/
+    background-size: cover;/*kích cỡ ảnh nền    */
+
+
+
+
+}
+
+
+
+
+
+h1{
+    color: beige;
+
+}
+p{
+}
+
+p{
+    color: #f0f8ff;/*màu sắc*/
+    font-size: 15px;/* cỡ chữ*/
+    line-height: 1.5;/*khoảng cách dòng*/
+    text-align: left;/*left(trái) right(phải) justify(căn dều)*/
+    font-family: Arial; /*kiểu chữ*/
+    font-weight: bold; /*in đậm chữ : 100=>400(normal) 500=>700(bold)*/
+    text-decoration: underline;/* gach chan line-through(ngang) overline
+    (gạch trên đầu) none(không gạch) */
+    text-indent: 50px; /* lùi dòng đầu tiên*/
+    word-spacing: 2px; /*khoảng cách  giữa chữ*/
+    text-transform: uppercase;/*viết hoa toàn bộ (lowercase : viết thường hết
+    capitalize : viết hoa chữ đầu tiên; none*/
+    text-shadow: 5px 3px 5px red; /*bóng của chữ ( bóng dổ trái + đổ phải + độ rộng của bóng*/
+    background-color:gold ; /*màu nền*/
+
+
+
+}

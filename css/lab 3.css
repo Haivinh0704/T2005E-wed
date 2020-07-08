@@ -1,0 +1,45 @@
+body{
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-image: url(../IMGs/1536302291678996524.jpg)
+
+}
+#z{
+    width: 1000px;
+    margin: 800px auto;
+}
+#head{
+
+    width: 1000px;
+    height: 230px;
+    background-color: #bcc5ce;
+    line-height: 1.5;
+    text-align: center;
+
+
+}
+#contect{
+    width: 200px;
+    height: 800px;
+    background-color: #e8e8e8;
+    float: left;
+
+}
+#profile{
+    width: 800px;
+    height: 600px;
+    background-color: #f1f1f1;
+    float: right;
+}
+h1{
+    height: 100px   ;
+}#avata{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+ }
+ #contac1{
+     text-align: justify-allx;
+
+     float: left;
+ }
