@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    font-size: 14px;
+    color: #343132;
+    font-family: 'Noto San JP',sans-serif;
+    background-color: #F2F2F2;
+}
+.section{
+
+    background-color: #F2F2F2;
+    float: left;
+    width: 100%;
+}
+.section-2{
+
+    width: 33.3%;
+    float: right;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*header */
+.header{
+    padding: 25px ;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 60px;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: right;
+    width: 70%;
+}
+.logo a{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #343132;
+    font-weight: 700;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    margin-top: 16px;
+    float: left;
+    margin-left: 35px;
+}
+.menu li:first-child/*li dau tien*/{
+    list-style: none;
+}
+.menu li:last-child/* vi tri cuoi*/
+.menu li:nth-child(odd){
+
+}
+.menu li:nth-child(even){
+
+}
+.menu li a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #c6c8c2;
+    transition: all 150ms;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    color: #343132;
+}
+.content{
+    margin-bottom: 15px;
+    float: left;
+    width: 66.67%;
+    padding-right: 15px;
+}
+
+.content .tweet{
+    float: left;
+    width: 100%;
+    background-image: url("../IMGs/hinh-nen-dep-cho-may-tinh-win-10-10.jpg");
+    background-size: 100%;
+}
+.tweet .tweet-content{
+    line-height: 50px;
+    background-color: #EE6C6C;
+    float: left;
+    width: 100%;
+    padding:20px;
+}
+.tweet .tweet-content p{
+    font-size: 10px;
+}
+.tweet h2{
+    font-size: 18px;
+   color: #ffffff;
+
+}
+.tweet p{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.post{
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+    background-color: white;
+    height: 306px;
+}
+.post h2{
+    font-size: 30px;
+}
+.post p{
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.icon{
+    display: block;
+    word-spacing: 8px;
+    font-size: 12px;
+    margin-top:12px;
+
+ }
+.read-more{
+    box-shadow: 2px 2px 5px;
+    background-color: #F37A5D;
+    width: 134px;
+    height: 44px;
+
+}
+.read-more p{
+    display: block;
+    margin: auto;
+    color: white;
+}
+.read-more:hover p{
+    transition: 0.4s;
+    color: black;
+}
+
+.post-2{
+    margin-left: 30px;
+    display: block;
+
+    margin-bottom: 40px;
+    padding: 20px;
+    width:280px;
+    height: 384px;
+    background-color: white;
+    word-spacing: 2px;
+}
+.post-2 i{
+
+    line-height: 1.5;
+    font-size: 50px;
+}
+
+

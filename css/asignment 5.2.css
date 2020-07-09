@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    background-color: #F2F2F2;
+}
+.container{
+
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*Top*/
+.top{
+    background-color: white;
+    padding: 20px;
+    word-spacing: 4px;
+}
+.icon1{
+    margin-right: 150px;
+    float: left;
+    width: 30%;
+}
+.icon2{
+    width: 30%;
+    float:right;
+}
+.container a{
+    text-decoration: none;
+    color: gray;
+}
+.container p{
+    color: gray;
+ }
+ .mid .container{
+     text-align: justify-all;
+     padding: center;
+     background-color: #96F7E3;
+     width: 100%;
+
+ }
+
+ .khoi1 i{
+
+     float: right;
+ }
+ .khoi1 p{
+
+     font-size: 50px;
+
+ }
+ .khoi2 a:hover{
+     transition: 0.5s;
+     color: black;
+ }
+ .khoi2-1{
+     margin-left:40px ;
+     margin-top: 60px;
+     float: left;
+     width: 13.33333%;
+     height: 50px;
+
+ }
+.bot p{
+    word-spacing: 10px ;
+    display: block;
+    margin-top: 20px;
+}
+ .bot1{
+     margin-top: 30px;
+     margin-left: 30px;
+     display: block;
+     padding: 40px;
+     float: left;
+     width: 345px;
+     height: 371px;
+     background-color: white;
+ }
+ .bot a:hover{
+     transition: 0.5s;
+     color: black;
+ }
+ .top a:hover{
+     transition: 0.5s;
+     color: black;
+ }
+
