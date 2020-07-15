@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 15px;
+
+
+}
+body{
+
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.billing{
+    background-color: #E6E4E5;
+    float: left;
+    width: 60%;
+}
+.billing .content_1{
+
+    float: left;
+    padding: 10px ;
+}
+.billing .content_2{
+    padding: 10px;
+    margin-left:20px ;
+}
+.cart {
+
+    background-color: #E6E4E5;
+    float: right;
+    width: 36%;
+}
+.content_1{
+    overflow: hidden;
+    width: 50%;
+    float: left;
+}
+.font1{
+
+    display: block;
+    float: left;
+}
+font2{
+    float: right;
+}
+/*.input-text{*/
+
+/*    width: 30%;*/
+/*}*/
+/*content_2{*/
+/*    overflow: hidden;*/
+/*    width: 50%;*/
+/*}*/
+
