@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab 10</title>
+    <link rel="stylesheet" type="text/css" href="css/lab%2010.css"/>
+</head>
+<body>
+    <article class="container">\
+        <div class="catego" id="cats">
+
+        </div>
+    </article>
+    <script type="text/javascript">
+        var cats =[
+                {
+                    name : "Điện Thoại",
+                    image : "IMGs/FPTshop/apple.png",
+                    link :"Đienthoai.html"
+                },
+                {
+                    name : "Laptop",
+                    image : "IMGs/FPTshop/laptop.png",
+                    link :"laptop.html"
+                },
+                {
+                    name : "apple",
+                    image : "IMGs/FPTshop/apple.png",
+                    link :"apple.html"
+                },
+                {
+                    name : "Máy tính Bảng",
+                    image : "IMGs/FPTshop/tablet.png",
+                    link :"laptop.html"
+                },
+                {
+                    name : "Đồng Hồ Thông Minh",
+                    image : "IMGs/FPTshop/smart-watch.png",
+                    link :"apple.html"
+                },
+                {
+                    name : "Ôp Lưng Điện Thoại",
+                    image : "IMGs/FPTshop/op-lung.png",
+                    link :"oplung.html"
+                },
+                {
+                    name : "tai nghe",
+                    image : "IMGs/FPTshop/tai-nghe.png",
+                    link :"tainghe.html"
+                },
+                {
+                    name : "thẻ nhớ",
+                    image : "IMGs/FPTshop/the-nho.png",
+                    link :"thenho.html"
+                },
+                {
+                    name : "loa Nghe Nhạc",
+                    image : "IMGs/FPTshop/loa-nghe-nhac.png",
+                    link :"loanghenhac.html"
+                },
+                {
+                    name : "Cáp-Sạc",
+                    image : "IMGs/FPTshop/cap-sac.png",
+                    link :"capsac.html"
+                },
+                {
+                    name : "Máy Tính để bàn",
+                    image : "IMGs/FPTshop/may-tinh-de-ban.png",
+                    link :"laptop.html"
+                },
+                {
+                    name : "Máy in",
+                    image : "IMGs/FPTshop/may-.png",
+                    link :"laptop.html"
+                },
+            ];
+        cats.map(function (c) {
+            var a_htmml =" <div class=\"noidung\">\n" +
+                "                    <img src=\""+c.image+"\" height=\"48\" width=\"40\"/>\n" +
+                "                    <p>"+c.name+"</p>\n" +
+                "                </div>";
+            // "+c.(varlue cần thay thế)+"   viết đúng theo cú pháp
+            document.getElementById("cats").innerHTML +=a_htmml
+        })
+        </script>
+
+</body>
+</html>

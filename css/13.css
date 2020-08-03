@@ -1,0 +1,22 @@
+body{
+    background-image: url(https://previews.123rf.com/images/pellinni/pellinni2002/pellinni200200216/140833512-gorgeous-cloudscape-in-springtime-weather-background-with-dynamic-cloud-arrangement-on-a-blue-sky-su.jpg);
+    background-size:cover ;
+}
+.box{
+    float: left;
+    width: 100%;
+    background-color: gray;
+    margin: 15px 0 ;
+    padding: 20px;
+    border-radius:5px ;
+    box-shadow: 0 0 5px #d9d9d9;
+    position: relative;
+}
+.box .desc{
+    margin-top: 15px;
+}
+.box img{
+    position: absolute;
+    right:15px;
+    bottom:30px;
+}

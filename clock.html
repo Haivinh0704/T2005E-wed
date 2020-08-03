@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CLock</title>
+</head>
+<body>
+    <input type="number" name="minute">
+    <button type="button" onclick="start()">Start </button>
+    <h1 id="heading"><span class="min">00</span>:<span class="sec">00</span> </h1>
+    <script type="text/javascript" src="Js/Jquery.js"></script>
+    <script type="text/javascript">
+        var min=10;
+        var sec=0;
+        var time;
+        function start(){
+            min=$("input[name=minute]").val()
+            min=parseInt(min);
+            min = (isNaN(min) || min<=0)?10:min;
+            var sec=0;
+            clearInterval()time;
+            time= setInterval(function () {
+                //in phtu lên
+                $(".min").text(min<10?"0"+min:min);
+                $(".sec").text(sec<10?"0"+sec:sec);
+                //Thay đổi thời gian
+                sec--;
+                if(sec<0){
+                    min--;
+                    sec=59;
+                }
+                if(min<0) clearInterval(time);
+            },100)
+        }
+
+        function start() {
+            var start =$("h1");
+
+        }
+    </script>
+</body>
+</html>

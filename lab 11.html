@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB 11</title>
+    <link rel="stylesheet" type="text/css" href="css/lab%2011.css"/>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <ul class="nav">
+                <li><a href="#" onclick="tabs(this,0)" class="item ">HOME</a> </li>
+                <li><a href="#" onclick="tabs(this,1)" class="item">Profile</a> </li>
+                <li><a href="#" onclick="tabs(this,2)" class="item">Message</a> </li>
+                <li><a href="#" onclick="tabs(this,3)" class="item">Setting</a> </li>
+            </ul>
+            <div class="tab-content">
+                <div class="cinema" id="cinema">
+                    <div id ="home" class="tab active">
+                        HOme
+                    </div>
+                    <div id ="Profile" class="tab">
+                        Profile
+                    </div>
+                    <div id ="Message" class="tab">
+                        Massage
+                    </div>
+                    <div id ="Setting" class="tab">
+                        Setting
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<script type="text/javascript">
+    // function tabs(e,idName) {
+    //     var Li=document.getElementsByClassName("item");
+    //     var content=document.getElementsByClassName("tab");
+    //     for(var i of li){
+    //         i.classList.remove("active");
+    //     }
+    //     for (var i of content){
+    //         i.classList.remove("active");
+    //     }
+    //     e.classList.add("active");
+    //     document.getElementById(idName).classList.add("tab")
+    // }
+    function tabs(e,number) {
+        var li = document.getElementsByClassName("item");
+        for(var i of li){
+            i.classList.remove("active");
+        }
+        e.classList.add("active");
+        document.getElementById("cinema").style.left = -number*800+"px";
+    }
+</script>
+</body>
+</html>

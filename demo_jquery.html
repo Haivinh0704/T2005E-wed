@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Jquery</title>
+</head>
+<body>
+
+    <input type="number" name="minute">
+    <button type="button" onclick="boxOn()">ON</button>
+    <button type="button" onclick="boxOff()">OFF</button>
+    <button type="button" onclick="OnOff()">ON-Off</button>
+    <button type="button" onclick="Move()">move</button>
+
+    <div class="box">
+        <h1 id="heading">Tiêu đề jQuery</h1>
+        <h2> Tác giả:jQuery</h2>
+        <p class="pg">sáng 24/7, Viện đã nhận được mẫu bệnh phẩm từ Đà Nẵng gửi ra để xét nghiệm thẩm định. Đến 12h đã có kết quả bước đầu. Tuy nhiên, đến thời điểm này chưa đủ cơ sở để khẳng định chắc chắn là bệnh nhân có bị nhiễm Covid-19 hay không. Viện Vệ sinh dịch tễ Trung ương sẽ tiếp tục làm t</p>
+        <p class="pg">hẩn liên viện để đưa ra phác đồ điều trị tối ưu nhất. Một kíp y bác sĩ hồi sức cấp cứu của Bệnh viện Chợ Rẫy cũng đã được cử đến Đà Nẵng hỗ trợ trực tiếp cho công tác điều trị.</p>
+    </div>
+
+
+
+    <script type="text/javascript" src="Js/Jquery.js"></script>
+    <script type="text/javascript">
+        var h = $("#heading");
+        h.css("color","red");   /* (thuộc tính muốn dổi , lệnh muốn đổi*/
+        h.css({
+            "color":"green",
+            "backgroud-color":"pink",
+            "boder-bottom":"1px solid orange"
+        });
+        console.log(h.text);
+        h.text("XIN CHAO LOAI NGUOI :)");
+        console.log(h.html());
+        h.html("<i>HAJSDASJDAS  </i>");
+        h.html(h.html()+"<u>T2005E</u>");
+        h.append("<i> HELOOOOOO </i>");
+        h.prepend("<b> ASJDASJ </b>");
+        h.addClass("active");
+        h.removeClass("abc");
+
+        // class
+
+        var pg = $(".pg");
+        pg.css("color","gray");
+        var pp = $("p");
+        pp.css("text-transform","uppercase")
+
+    </script>
+    <script type="text/javascript">
+       function boxOn() {
+            var box = $(".box");
+            // box.show();
+            // box.fadeIn();
+            box.slideDown(500);
+       }
+       function boxOff() {
+            var box=$(".box");
+            // box.hide();
+            // box.fadeout(200);
+            box.slideUp();
+       }
+       function OnOff() {
+            var box =$(".box")
+           //box.toggle();
+           // box.fadeToggle;
+           box.slideToggle()
+       }
+       // var m=0;
+       function  Move() {
+            var box =$(".box");
+            var m=$("input[name=minute]").val();
+            m = parseInt(m);
+            m=isNaN(m)?0:m;
+            box.animate({
+                "margin-left": m+"px",
+                "margin-top":m+"px",
+            }4000);
+       }
+
+    </script>
+</body>
+</html>

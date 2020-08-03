@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    margin-left: 40px;
+}
+.khoi1{
+    /*border-right: 1px solid gray;*/
+    /*border-bottom:  1px solid gray;*/
+    /*float: left;*/
+    /*width: 240px;*/
+    /*height: 194px;*/
+    /*background-color: white;*/
+
+
+    float: left;
+    width: calc(100% /6) ;
+    /* chia tỷ lệ ra đều 6 ô đều nhau*/
+    border-radius: 6px; /* border 4 góc*/
+    text-align: center ; /* bao gồm cả ảnh*/
+    margin: 0 auto 10px; /* bottom cách 10px + chỉnh ra giữa */
+    box-shadow :0 0 10px 0 rgba(0,0,0,.15) /* (a  +  .15) làm mở bớt màu đổ bóng*/
+    /* kiểm tra hover trên f12 dò hiệu ứng hover
+    hạn chế chỉnh heigh để tự co dãn chiều cao chỉ xét width
+    */
+
+}
+

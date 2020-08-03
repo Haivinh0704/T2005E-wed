@@ -86,6 +86,6 @@ body{
  }
  .top a:hover{
      transition: 0.5s;
-     color: black;
+     color: black; 
  }
 

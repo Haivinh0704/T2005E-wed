@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo_</title>
+    <link rel="stylesheet" type="text/css" href="css/demo_form.css "/>
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.1-web/css/all.css">
+
+</head>
+<body>
+    <section class="section">
+            <div class="container">
+                <div class="input-group">
+                    <input type="text" class="input-text" name="fullname" placeholder="full Name" required /* yêu cầu bắt buộc nhập*/ />
+                    <input type="text"class="input-text"  name="gmail" placeholder="input Gmail "/>
+                </div>
+                <div class="input-group">
+                    <input type="password"class="input-text" name="password" placeholder="Password.. "/>
+                    <input type="number" class="input-text" name="year" placeholder="year .. "/>
+                </div>
+                <div class="input-group">
+                    <input type="date" class="input-text"  name="birthday" placeholder="birthday .. "/>
+                    <input type="time" class="input-text" name="time_birthday" placeholder="Time .. " disabled/>
+                </div>
+                <div class="input-group">
+                    <input type="file" class="input-text" name="avta" placeholder="avta .. "/>
+                    <input type="color" class="input-text" name="my_color" placeholder="color .. "/>
+                </div>
+                <div class="input-group">
+                    <p> Giới tính</p>
+                   <label><input type="radio" name="sex" value="male "/><label>NAm</label></label>
+                   <label><input type="radio" name="sex" value="fmae "/><label>nu</label></label>
+                   <label><input type="radio" name="sex" value="pth "/><label>khac</label></label>
+                </div>
+                <div class="input-group">
+
+                    <label><input type="range" max="99" min="18" value="male "/<label>Độ Tuổi muốn kết hôn</label></label>
+
+                    <label><input type="checkbox" name="rules"/>Tôi đồng yvoiws điều kiện</label>
+                </div>
+                <div class="input-group">
+                           <select name="city">
+                               <option>Vui Lòng CHọn tỉnh tp </option>
+                               <optgroup label="Miền Bắc">
+                                   <option label="HP"></option>
+                               </optgroup>
+                               <optgroup label="Miền Nam">
+                                   <option label="HN"></option>
+                               </optgroup>
+                           </select>
+                </div>
+
+
+                <div class="input-group">
+                    <br/>
+                    <textarea name="description" rows="10" cols="100" placeholder="Giới thiệu bản thân..."></textarea></div>
+                    
+                    <button type="submit">Submit</button>
+                    <button type="reset">reset</button>
+                    <button type="button">Button</button>
+
+                </form>
+            </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+    <h1 id="abc">Demo js </h1>
+    <p class="pg"> rên mạng xã hội, có nhiều bình luận cho rằng đoạn clip này xuất phát từ camera an ninh gắn trong nhà dân và bằng một cách nào đó đã bị hack rồi đăng tải lên MXH. Theo luật sư, đây cũng là hành động xâm phạm riêng tư đáng lên án và tồn tại lâu nay chưa được khắc phục triệt để.
+
+        Cụ thể, theo quan điểm của Luật sư Trần Xuân Tiền, việc phát tán clip này là hành vi trái pháp luật, tùy mức độ có thể bị phạt hành chính hoặc truy cứu trách nhiệm hình</p>
+    <p class="pg">lip đó là tôi bị hack rồi đưa lên mạng, hiện tại tôi đã trình báo cơ quan công an thành phố Hải Phòng để họ điều tra xử lý người đưa video lên mạng. Còn nữa nội dung những clip kia là không đúng sự thật, hiện công an vẫn đang </p>
+    <script type="text/javascript">
+        var h =document.getElementById("abc");
+        var p =document.getElementsByClassName("pg");
+
+        h.style.textTransform ="uppercase";
+        for (var i=0;i<p.length;i++){
+            p[i].style.color = "red";
+        }
+
+        var p2 = document.getElementsByTagName("p");
+        for (var e of p2){
+            e.style.color ="green";
+        }
+
+        var p3 = document.getElementsByTagName("h1");
+        for(var e of p3){
+            e.style.textTransform="none";
+        }
+
+        var p4 =document.querySelectorAll("p.pg");
+        console.log(p4);
+        var p5 =document.querySelectorAll("#abc");
+        console.log(p5);
+        var ip=document.querySelectorAll("input[type=text]");
+        var ip2=document.querySelectorAll("input[nam=email"); // mò tệp email trên html
+        var body=document.body;
+        console.log(body);
+        var head = document.head;
+        var title=document.title;
+        var link = document.link;
+        console.log(link);
+
+
+
+
+
+
+    </script>
+</body>
+</html>

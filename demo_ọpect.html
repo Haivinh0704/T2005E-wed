@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo object</title>
+</head>
+<body>
+    <h1 id="sv-name">a</h1>
+    <h2 id="mssv">a</h2>
+    <h3 id="telephone"> Dt:</h3>
+    <h4 id="diachi">Địa Chỉ :</h4>
+    <h4> Ten Ban Gai</h4>
+    <h3> duoi day la danh sach cac ve tinh</h3>
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <script type="text/javascript">
+        var SinhVien = {
+            Ten:"Nguyen Van A",
+            MSSV : "123456",
+            sdt: "0339223",
+            diachi: "So 8 Ton That Thuyet",
+            BanGai: {
+                Ten: "Nguyen thi B",
+                sdt: "029999",
+                diachi: "so 2 Ton That Thuyet",
+                Vetinh: [
+                    {
+                        Ten: "A",
+                        sdt: 0,
+                        xe: "Sh",
+                        Qua: function{
+                            console.log("hoa");
+                            return this;
+                        }
+                    },
+                    {
+                        Ten: "a",
+                        sdt: "01",
+                        xe: "ab",
+                        Qua: function{
+                            console.log(this.name + "qua");
+                            return this;
+                        }
+                    },
+                    {
+                        Ten: "b",
+                        sdt: "02",
+                        xe: "wave",
+                        Qua: function{
+                            console.log(this.name + "banh");
+                            return this;
+                        }
+                    },
+                    {
+                        Ten: "c",
+                        sdt: "03",
+                        xe: "cup",
+                        Qua: function{
+                            console.log(this.name + "keo");
+                            return this;
+                        }
+                    },
+                ],
+            },
+            Ghen:function () {
+                console.log("bi an danh");
+            },
+            picnic: function () {
+               console.log("So 10 ton that thuyet") ;
+            }
+        }
+        var h1 = document.getElementById("sv-name");
+        h1.innerText= SinhVien.Ten;
+        document.getElementById("mssv").innerText=SinhVien.MSSV;
+        document.getElementById("telephone").innerText +=""+SinhVien.sdt;
+        document.getElementById("diachi").innerText +=""+SinhVien.diachi;
+        document.getElementById("gfname").innerText +=""+SinhVien.diachi;
+        var vetinhs =sv.BanGai.Vetinh;
+        vetinhs.map(function (v) {
+            var li_html = "<li>"+v.Ten+" di xe:" +v.xe+"</li>";
+            ol_Vetinh.innerHTML += Li_html;
+
+        })
+
+
+    </script>
+</body>
+</html>

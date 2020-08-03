@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS and HTMl</title>
+</head>
+<body>
+    <h1 id="title"> day la tieu ddef</h1>
+    <p id="content">Một người mẹ khác trong vụ án là mẹ của chị H. cũng khóc nghẹn gần như suốt cả phiên xét xử. Từ ngày con
+        gái mất sức khỏe của bà yếu hẳn, phần vì nhớ thương con phần lo lắ
+        ng về tương lai của 3 người cháu. Mọi gánh nặng đều dồn lên đôi vai của anh T.<br/>
+
+        Chứng kiến hình ảnh mẹ chị H. ôm di ảnh con k
+        hóc nấc giữa phòng xét xử ai nấy đều xót xa. Là người may mắn thoát chết trong vụ việc,
+        chị Đ. T. H. Y. (chị họ Trang) khai trước tòa, sau khi Trang bị bắt chị mới biết chồng m</p>
+    <script type="text/javascript">
+        // đối tượng kí hiệu " obj = {} "
+        // var obj = {
+        //     name: "Nguyen Van A",
+        //     age:18,
+        //     tel:"09888888",
+        //     chay:function () {
+        //         console.log(this.name+ " dang chay..");
+        //         return this;
+        //     },
+        //     eat: function () {
+        //         console.log(this.name+"an");
+        //     }
+        // }
+        // var obj2 = {
+        //     name: "Nguyen Van b",
+        //     age:23,
+        //     tel:"232312312",
+        //     child:{
+        //         Child_name:"AA",
+        //         bơi : function () {
+        //             console.log(this.Child_name+"dang di bo cung ");
+        //         }
+        //     },
+        //     bơi:function (x) {
+        //         console.log(this.name+"dang bơi.."+this.child.Child_name);
+        //     },
+        // }
+        // obj.chay(obj.name)
+        // console.log("ten cua ban:"+obj.name);
+        // obj.name ="Nguyen kì ";
+        // console.log(obj.name+"tel :"+obj.tel);
+        // obj.chay(obj.name);
+        // obj2.bơi(obj.name);
+        // obj.chay().eat();
+
+
+        // var SinhVien = {
+        //     Ten:"Nguyen Van A",
+        //     MSSV : "123456",
+        //     sdt: "0339223",
+        //     diachi: "So 8 Ton That Thuyet",
+        //     BanGai: {
+        //         Ten: "Nguyen thi B",
+        //         sdt: "029999",
+        //         diachi: "so 2 Ton That Thuyet",
+        //         Vetinh: [
+        //             {
+        //                 Ten: "A",
+        //                 sdt: 0,
+        //                 xe: "Sh",
+        //                 Qua: function{
+        //                     console.log("hoa");
+        //                     return this;
+        //                 }
+        //             },
+        //             {
+        //                 Ten: "a",
+        //                 sdt: "01",
+        //                 xe: "ab",
+        //                 Qua: function{
+        //                     console.log(this.name + "qua");
+        //                     return this;
+        //                 }
+        //             },
+        //             {
+        //                 Ten: "b",
+        //                 sdt: "02",
+        //                 xe: "wave",
+        //                 Qua: function{
+        //                     console.log(this.name + "banh");
+        //                     return this;
+        //                 }
+        //             },
+        //             {
+        //                 Ten: "c",
+        //                 sdt: "03",
+        //                 xe: "cup",
+        //                 Qua: function{
+        //                     console.log(this.name + "keo");
+        //                     return this;
+        //                 }
+        //             },
+        //         ],
+        //     },
+        //     Ghen:function () {
+        //         console.log("bi an danh");
+        //     },
+        //     picnic: function () {
+        //        console.log("So 10 ton that thuyet") ;
+        //     }
+        // }
+        // tạo các đối tượng DOM element
+        var h= document.getElementById("title");
+        //console.log(h);
+        console.log(h.innerText);
+        h.innerText ="a bc x y z";
+        console.log(h.innerHTML);
+        h.innerHTML="<b><i><u>Nội dung bất ku</u></i></b>";
+        h.style.color="red";
+        h.style.fontSize="50px";
+        h.style.backgroundColor="green";
+        h.classList.add("t2005e");
+    </script>
+</body>
+</html>

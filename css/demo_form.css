@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+/*input[type=text],input[type=email]{*/
+/*    float: left;*/
+/*    margin: 5px 10px;*/
+/*    width: 300px;*/
+/*    height: 35px;*/
+/*}*/
+/* thay name bằng class rồi dùng .input-text*/
+.input-text{
+    float: left;
+    width: 45%;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: red;
+}
+.input-group{
+    float: left;
+    width: 100%;
+    margin: 15px 0px;
+}
