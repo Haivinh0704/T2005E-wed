@@ -22,7 +22,7 @@ p{
 p{
     color: #f0f8ff;/*màu sắc*/
     font-size: 15px;/* cỡ chữ*/
-    line-height: 1.5;/*khoảng cách dòng*/
+        line-height: 1.5;/*khoảng cách dòng*/
     text-align: left;/*left(trái) right(phải) justify(căn dều)*/
     font-family: Arial; /*kiểu chữ*/
     font-weight: bold; /*in đậm chữ : 100=>400(normal) 500=>700(bold)*/

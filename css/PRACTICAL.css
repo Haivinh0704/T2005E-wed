@@ -1,0 +1,48 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.header{
+    background-image: url("../IMGs/practical/menu.jpg");
+    background-size: cover;
+    height: 117px;
+}
+.menu li{
+    margin-top: 30px;
+    padding: 10px;
+    display: block;
+    float: left;
+    font-size: 20px;
+}
+.menu ul{
+    margin-left: 800px;
+}
+.menu a{
+    text-decoration: none;
+    color: #D0C897;
+}
+.menu a:hover {
+    transition: 0.3s;
+    color: #FCD07A;
+}
+.text {
+    float: left;
+}
+.noidung{
+    background-color: #6E6943;
+    height: auto;
+}
+.left{
+    margin-top:20px ;
+    width: 80%;
+    float: left;
+}
+.text1 p{
+    line-height: 2.5;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+.text1 h1{
+    font-size: 25px;
+}
+
